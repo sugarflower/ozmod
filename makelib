@@ -1,0 +1,6 @@
+#!/bin/sh
+rm ../lib/ozmod.jar
+
+javac -bootclasspath ../rt.jar -source 1.6 -target 1.6 ozmod/*.java
+jar cvf ../lib/ozmod.jar ozmod/*.class
+
