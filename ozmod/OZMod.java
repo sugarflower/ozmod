@@ -143,7 +143,7 @@ public class OZMod {
     public ERR initOutput(int _deviceIndex)
     {
         if (initialised_ == true)
-            return proceedError(ERR.ALREADYINIT);
+           return proceedError(ERR.ALREADYINIT);
 
         initialised_ = true;
 

@@ -1599,8 +1599,8 @@ public class XMPlayer extends Thread
     boolean running_;
     boolean done_;
     
-    int posChanson_ = 0;
-    int posInPattern_;
+    public int posChanson_ = 0;
+    public int posInPattern_;
     
     Timer timer_;
     int freq_;
@@ -1630,7 +1630,7 @@ public class XMPlayer extends Thread
     Instru instrus_[];
 
     int globalVolume_ = 64;
-    float mainVolume_ = 1.0f;
+    public float mainVolume_ = 1.0f;
 
     boolean bGotPatternLoop_;
     int patternPosLoop_;
